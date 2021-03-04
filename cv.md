@@ -1,9 +1,11 @@
 # Mikita Sazanchuk
-
 ***
-
 1. **Phone:** _+375292780693_
+
+
 2. **Email:** _mibigwork@gmail.com_
+
+
 3. **Experience:**
     + _Organization:_ Ministry of Defense of the Republic of Belarus
 
@@ -16,11 +18,12 @@
       _Position:_ Specialist of the system administration group
 
       _Working period:_ From 11.2020 to the present
+
+
 4. **My skills:** JS, PHP, HTML, CSS, Git
-   
+
 
 5. **Code example:**
-
 ```javascript
    let url_1 = 'https://jsonplaceholder.typicode.com/posts'
    
@@ -32,7 +35,6 @@
    }
    sortTitle(url_1, 20)
 ```
-
 6. **Education:**
    
    _Educational institution:_ "Military Academy of the Republic of Belarus"
@@ -44,4 +46,6 @@
    _Form of study:_ Full-time
    
    _Graduation year:_ 2014
+   
+
 7. **English level:** A1
