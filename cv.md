@@ -20,17 +20,19 @@
    
 
 5. **Code example:**
-```javascript
-let url_1 = 'https://jsonplaceholder.typicode.com/posts'
 
-async function sortTitle(url, count) { 
-   let arr = await (await fetch(url)).json()
-   arr.splice(count)
-   arr.sort((a, b) => b.title.length - a.title.length)
-   return console.log(arr)
-}
-sortTitle(url_1, 20)
+```javascript
+   let url_1 = 'https://jsonplaceholder.typicode.com/posts'
+   
+   async function sortTitle(url, count) { 
+      let arr = await (await fetch(url)).json()
+      arr.splice(count)
+      arr.sort((a, b) => b.title.length - a.title.length)
+      return console.log(arr)
+   }
+   sortTitle(url_1, 20)
 ```
+
 6. **Education:**
    
    _Educational institution:_ "Military Academy of the Republic of Belarus"
