@@ -6,57 +6,73 @@
 	<link rel="stylesheet" href="assets/styles/styles.css">
 	<title>CV</title>
 </head>
-
 <body>
+
 <header>
 	<div class="container">
-		<h1>Mikita</h1>
+		<h1 class="heading">Front-end developer</h1>
 	</div>
 </header>
 
-<main class="info">
+<main>
 	<div class="container">
-		<img class="hero-image" width="200" src="./assets/image/photo.jpg" alt="My photo">
-		<br>
-		<h2>Personal information</h2>
-		<ul>
-			<li>Name: <b>Sazanchuk Mikita</b></li>
-			<li>Date of birth: <b>03.12.1991</b></li>
-			<li>Citizenship: <b>Republic of Belarus</b></li>
-			<li>City of residence: <b>Minsk</b></li>
-			<li>Marital status: <b>Single, no children</b></li>
-		</ul>
-		<br>
-		<h2>Education</h2>
-		<ul>
-			<li>Educational institution: <b>"Military Academy of the Republic of Belarus"</b></li>
-			<li>Faculty: <b>Communications and automated control systems</b></li>
-			<li>Specialty: <b>Operation of automated information processing systems</b></li>
-			<li>Form of study: <b>Full-time</b></li>
-			<li>Graduation year: <b>2014</b></li>
-		</ul>
-		<br>
-		<h2>Experience</h2>
-		<ol type="I">
-			<li>
-				<ul>
-					<li>Organization: <b>Ministry of Defense of the Republic of Belarus</b></li>
-					<li>Position: <b>System Administration Officer</b></li>
-					<li>Working period: <b>From 07.2014 to 10.2020</b></li>
-				</ul>
-			</li>
+		<figure>
+			<img class="hero-image" width="200" src="./assets/image/photo.jpg" alt="My photo">
+		</figure>
 
-			<li>
-				<ul>
-					<li>Organization: <b>"Belgazprombank"</b></li>
-					<li>Position: <b>Leading specialist of the system administration group</b></li>
-					<li>Working period: <b>From 11.2020 to the present</b></li>
-				</ul>
-			</li>
-		</ol>
-		<br>
-		<div class="skills">
-			<h2>My skills</h2>
+		<section class="personal-info">
+			<h2>Personal information</h2>
+			<ul>
+				<li>Name: <b>Sazanchuk Mikita</b></li>
+				<li>Phone: <b><a href="tel:+375292780693">+375292780693</a></b></li>
+				<li>Email: <b><a href="mailto:kingnikoriginal@gmail.com">kingnikoriginal@gmail.com</a></b></li>
+				<li>Date of birth: <b>03.12.1991</b></li>
+				<li>Citizenship: <b>Republic of Belarus</b></li>
+				<li>City of residence: <b>Minsk</b></li>
+			</ul>
+		</section>
+
+		<section class="education">
+			<h2>Education</h2>
+			<ul>
+				<li>Educational institution: <b>"Military Academy of the Republic of Belarus"</b></li>
+				<li>Faculty: <b>Communications and automated control systems</b></li>
+				<li>Specialty: <b>Operation of automated information processing systems</b></li>
+				<li>Form of study: <b>Full-time</b></li>
+				<li>Graduation year: <b>2014</b></li>
+			</ul>
+		</section>
+
+		<section class="experience">
+			<h2>Experience</h2>
+			<ol type="I">
+				<li>
+					<ul>
+						<li>Organization: <b>Ministry of Defense of the Republic of Belarus</b></li>
+						<li>Position: <b>System Administration Officer</b></li>
+						<li>Working period: <b>From 07.2014 to 10.2020</b></li>
+					</ul>
+					<br>
+				</li>
+
+				<li>
+					<ul>
+						<li>Organization: <b>"Belgazprombank"</b></li>
+						<li>Position: <b>Leading specialist of the system administration group</b></li>
+						<li>Working period: <b>From 11.2020 to the present</b></li>
+					</ul>
+				</li>
+			</ol>
+		</section>
+
+		<section class="skills">
+			<h2>My skills and projects</h2>
+
+			<a href="https://kingurru.github.io/FirstLanding/">
+				<img class="project" src="./assets/image/first-project.png"
+				     alt="My first project" width="160">
+			</a>
+
 
 			<ul>
 				<li>HTML</li>
@@ -65,9 +81,13 @@
 				<li>PHP</li>
 				<li>Git</li>
 			</ul>
-		</div>
-
+		</section>
 	</div>
 </main>
+
+<footer>
+
+</footer>
+
 </body>
 </html>
