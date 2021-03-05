@@ -1,11 +1,29 @@
 .container {
+    min-width: 350px;
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+a:link {
+    color: #000;
+}
+
+
+.heading,
+figure,
+h1,
+h2 {
+    text-align: center;
 }
 
 .hero-image {
     margin-bottom: 30px;
     border-radius: 3px;
     border: 2px solid #000;
+}
+
+img.project {
+    float: left;
+    margin: 0 20%;
 }
