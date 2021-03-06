@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+}
+
+.container {
+    min-width: 350px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a:link {
+    color: #000;
+}
+
+.heading,
+figure,
+h1,
+h2 {
+    text-align: center;
+}
+
+.hero-image {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 2px solid #000;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.project {
+    /*border: 1px solid #000;*/
+}
+
+pre {
+    font-size: 8px;
+}
+
+.footer {
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background: #d6d6d6;
+    list-style-type: none;
+}
+
