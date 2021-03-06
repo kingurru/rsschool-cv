@@ -40,6 +40,8 @@
 				<li>Specialty: <b>Operation of automated information processing systems</b></li>
 				<li>Form of study: <b>Full-time</b></li>
 				<li>Graduation year: <b>2014</b></li>
+				<li>English level: <b>A2</b></li>
+
 			</ul>
 		</section>
 
@@ -67,27 +69,42 @@
 
 		<section class="skills">
 			<h2>My skills and projects</h2>
+			<div class="flex-container">
 
-			<a href="https://kingurru.github.io/FirstLanding/">
-				<img class="project" src="./assets/image/first-project.png"
-				     alt="My first project" width="160">
-			</a>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JS</li>
+					<li>PHP</li>
+					<li>Git</li>
+				</ul>
 
+				<a href="https://kingurru.github.io/FirstLanding/">
+					<img class="project" src="./assets/image/first-project.png"
+					     alt="My first project" width="160">
+				</a>
 
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JS</li>
-				<li>PHP</li>
-				<li>Git</li>
-			</ul>
+				<pre class="example-code">
+let url = 'https://jsonplaceholder.typicode.com/posts'
+async function sortTitle(url, count) {
+  let arr = await (await fetch(url)).json()
+  arr.splice(count)
+  arr.sort((a, b) => b.title.length - a.title.length)
+  return console.log(arr)
+}
+				</pre>
+			</div>
 		</section>
 	</div>
 </main>
 
 <footer>
-
+	<ul class="footer">
+		<li><a href="https://github.com/kingurru">GitHub</a></li>
+		<li><a href="#"><img src="./assets/image/youtube.svg" alt="Link to video" width="30"></a></li>
+		<li>2021</li>
+		<li><a href="https://rs.school/js/"><img src="./assets/image/rss.svg" alt="Logo rs school" width="100"></a></li>
+	</ul>
 </footer>
-
 </body>
 </html>
