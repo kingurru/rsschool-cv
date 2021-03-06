@@ -26,9 +26,20 @@ h2 {
     border: 2px solid #000;
 }
 
-img.project {
-    float: left;
-    margin: 0 20%;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.project {
+    /*border: 1px solid #000;*/
+}
+
+pre {
+    font-size: 8px;
 }
 
 .footer {

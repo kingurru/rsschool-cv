@@ -69,20 +69,32 @@
 
 		<section class="skills">
 			<h2>My skills and projects</h2>
+			<div class="flex-container">
 
-			<a href="https://kingurru.github.io/FirstLanding/">
-				<img class="project" src="./assets/image/first-project.png"
-				     alt="My first project" width="160">
-			</a>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JS</li>
+					<li>PHP</li>
+					<li>Git</li>
+				</ul>
 
+				<a href="https://kingurru.github.io/FirstLanding/">
+					<img class="project" src="./assets/image/first-project.png"
+					     alt="My first project" width="160">
+				</a>
 
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JS</li>
-				<li>PHP</li>
-				<li>Git</li>
-			</ul>
+				<pre class="example-code">
+let url = 'https://jsonplaceholder.typicode.com/posts'
+async function sortTitle(url, count) {
+  let arr = await (await fetch(url)).json()
+  arr.splice(count)
+  arr.sort((a, b) => b.title.length - a.title.length)
+  return console.log(arr)
+}
+				</pre>
+
+			</div>
 		</section>
 	</div>
 </main>
